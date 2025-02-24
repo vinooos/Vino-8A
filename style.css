@@ -1,0 +1,93 @@
+header{
+    border: 2px solid cyan;
+    padding: 2px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(27, 27, 83);
+}
+header p {
+    font-style: italic;
+}
+header img {
+    width: 40%;
+    border: 3px solid salmon;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px orange
+}
+
+header img:hover{
+    transform: scale(.9);
+    transition: all .3 ease-in-out;
+}
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 30px 0;
+    box-shadow: 2px 2px 2px orange;
+}
+header button:hover {
+    background-color: rgb(red, green, blue);
+    color: black;
+    border: 1px solid blue;
+    transform: scale(.9);
+    transition: all .3 ease-in-out;
+}
+
+#about {
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+}
+.left-about {
+    width: 50%;
+}
+.left-about img {
+    width: 45%;
+    border-radius: 30px 0;
+    margin-left: 100px;
+    box-shadow: 3px 3px 13px gray;
+}
+.right-about {
+    width: 40%;
+    padding: 10px;
+}
+#project {
+    width: 90%;
+    margin: 3px auto;
+    border: 1px solid grey;
+    text-align: center;
+}
+#project h2 {
+    color: blue;
+}
+.project image {
+    width: 50;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project_image img {
+    width: 25%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.project_image img:hover {
+    transform: scale(.9);
+    transition: all .3 ease-in-out;
+    box-shadow: 4px 4px 10px orange;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: gray;
+    color: blue;
+    border-top: 3px solid blue;
+}
+footer img {
+    width: 24px;
+}
